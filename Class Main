@@ -1,0 +1,54 @@
+package calculadora;
+
+import java.util.Scanner;
+
+
+public class Calculadora {
+
+   
+    public static void main(String[] args) {
+      
+        
+        
+        int Resultado;
+        int N1;
+        int N2;
+        int N3;
+    
+        
+      
+        
+        Scanner Teclado = new Scanner (System.in);
+        
+        
+        System.out.println("Informe um numero");
+          N1 = (int) Teclado.nextDouble();
+          
+          System.out.println("Informe um numero");
+          N2 = (int) Teclado.nextDouble();
+          
+          
+           System.out.println("Informe um numero");
+          N3 = (int) Teclado.nextDouble();
+          
+            Resultado = N1 + N2 + N3/3;
+          
+          
+           if   (Resultado >=21 ) {
+            
+        
+              System.out.println ("Você foi Aprovado");
+              
+           if (Resultado <15) {
+                 System.out.println ("Reprovado");
+           }
+           
+           if (Resultado >=15 && Resultado <21);{
+               
+           System.out.print("Você ficou de recuperação");
+           }
+                 
+        }
+           } 
+        }
+    
